@@ -15,12 +15,20 @@
 이 모델은 경기 기사 요약, 규칙 용어에 대한 친절한 해설을 통해 초보자도 쉽게 경기를 즐길 수 있도록 돕는 것을 목표로 합니다. 축구 팬들에게 친근하고 전문적인 정보 제공 도구가 될 것입니다.
 
 ## 구조
-<img width="593" height="97" alt="image" src="https://github.com/user-attachments/assets/436d6d18-56c6-4602-bf65-8969eeac77bf" />
-<img width="592" height="97" alt="image" src="https://github.com/user-attachments/assets/508ba3a1-be4a-4796-8dd4-ef4aa69569f7" />
-<img width="594" height="98" alt="image" src="https://github.com/user-attachments/assets/50595a94-7c2a-4bd5-9878-3faed416cc5f" />
+<img width="1487" height="255" alt="image" src="https://github.com/user-attachments/assets/71200cdc-65cc-47d7-b4ec-96fdd7445eae" />
+<img width="1487" height="256" alt="image" src="https://github.com/user-attachments/assets/a31e0ffd-0fe3-4584-8dc8-8d8d67b96475" />
+<img width="1487" height="256" alt="image" src="https://github.com/user-attachments/assets/75c71575-e167-412a-a5a0-cd8bdeef84d5" />
+
+
 
 - 데이터 로더: UpstageDocumentParseLoader
 - 텍스트 분할기: RecursiveCharacterTextSplitter
-- 임베딩 모델: UpstageEmbeddings
+- 임베딩 모델: solar-embedding-1-large
 - 벡터 DB: Chroma
 - 리트리버: Chroma 기반 리트리버
+- LLM: ChatUpstage
+
+##  주요 기능
+- AI 챗봇: 사용자가 축구 용어나 규칙에 대해 질문하면 문서로부터 관련 정보를 검색하여 답변을 해줍니다.
+- 뉴스 기사 요약 기능: 축구 관련 최신 신문 기사 제목과 내용 요약을 볼 수 있습니다.
+<img width="1134" height="551" alt="image" src="https://github.com/user-attachments/assets/29c938d8-423d-4ddb-aa70-2e18cba29758" />
